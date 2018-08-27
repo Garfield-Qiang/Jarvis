@@ -1,5 +1,11 @@
 package algorithms;
 
+
+/**
+ * 判断一个数字是否是回文数字
+ * @author Jarvis
+ *
+ */
 public class PalindromeNumber {
 	
 	public boolean isPalindrome(int x) {

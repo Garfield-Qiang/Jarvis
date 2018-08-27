@@ -2,6 +2,11 @@ package algorithms;
 
 import java.util.regex.Pattern;
 
+/**
+ * 给定一个字符串 招数这个字符串里的最大数字
+ * @author Jarvis
+ *
+ */
 public class String2Integer {
 	
 	public int myAtoi(String str) {

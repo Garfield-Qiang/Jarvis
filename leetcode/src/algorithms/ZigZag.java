@@ -1,5 +1,11 @@
 package algorithms;
 
+
+/**
+ * 给定一个字符串，和数字，根据数字，输出对应的拉链体字符
+ * @author Jarvis
+ *
+ */
 public class ZigZag {
 	
 	public String convert(String s, int numRows) {

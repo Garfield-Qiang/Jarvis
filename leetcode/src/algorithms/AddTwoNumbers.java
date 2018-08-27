@@ -1,5 +1,12 @@
 package algorithms;
 
+
+/**
+ * 给定两个链表，例1->2>3,4->5->6，
+ * 求出这两个链表所对应的数字之和，123+456=579，所对应的链表5->7->9
+ * @author Jarvis
+ *
+ */
 public class AddTwoNumbers {
 	
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

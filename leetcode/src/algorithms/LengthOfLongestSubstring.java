@@ -2,6 +2,12 @@ package algorithms;
 
 import java.util.LinkedList;
 
+
+/**
+ * 求出最大的无重复字符的子字符串
+ * @author Jarvis
+ *
+ */
 public class LengthOfLongestSubstring {
 
 	/**

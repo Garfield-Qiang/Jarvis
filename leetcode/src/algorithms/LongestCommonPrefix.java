@@ -1,7 +1,19 @@
 package algorithms;
 
+
+/**
+ * 给定一个字符串数组，求出这个数组里，最长的公共前缀
+ * @author Jarvis
+ *
+ */
 public class LongestCommonPrefix {
 	
+	/**
+	 * 先提取出前两个的公共前缀，再拿去和后面的字符串依次提取，
+	 * 如果公共前缀为空了，则停止比较，直接返回空
+	 * @param strs
+	 * @return
+	 */
 	public String longestCommonPrefix(String[] strs) {
 		if(strs.length == 0) {
 			return "";
@@ -24,6 +36,12 @@ public class LongestCommonPrefix {
 		return prefix;
     }
 	
+	/**
+	 * 获取两个字符串的相同前缀
+	 * @param s1
+	 * @param s2
+	 * @return
+	 */
 	public String getPrefix(String s1,String s2) {
 		StringBuilder sb = new StringBuilder();
 		int length = s1.length()>s2.length() ? s2.length() : s1.length();

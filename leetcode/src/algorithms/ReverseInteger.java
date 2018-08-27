@@ -1,5 +1,10 @@
 package algorithms;
 
+/**
+ * 求一个数字的倒序数
+ * @author Jarvis
+ *
+ */
 public class ReverseInteger {
 	
 	public int reverse(int x) {

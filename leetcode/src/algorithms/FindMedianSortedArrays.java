@@ -3,6 +3,11 @@ package algorithms;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 给定两个数组，求中位数，
+ * @author Jarvis
+ *
+ */
 public class FindMedianSortedArrays {
 	
 	public double findMedianSortedArrays(int[] nums1, int[] nums2) {

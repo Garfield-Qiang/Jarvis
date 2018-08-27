@@ -5,6 +5,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
+/**
+ * 求出最长的，回文字符串，回文即正序和逆序一样的字符串
+ * @author Jarvis
+ *
+ */
 public class LongestPalindrome {
 	
 	public String longestPalindrome(String s) {

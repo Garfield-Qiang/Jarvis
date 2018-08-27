@@ -3,6 +3,12 @@ package algorithms;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * 给定一个数字和数组，从数组里找出两个数字加起来等于给定的数字
+ * @author Jarvis
+ *
+ */
 public class TwoSum {
 	
 	 public int[] twoSum(int[] nums, int target) {
