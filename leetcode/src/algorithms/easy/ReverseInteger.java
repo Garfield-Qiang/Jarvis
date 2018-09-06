@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.easy;
 
 /**
  * 求一个数字的倒序数

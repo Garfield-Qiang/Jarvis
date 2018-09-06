@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.medium;
 
 import java.util.regex.Pattern;
 

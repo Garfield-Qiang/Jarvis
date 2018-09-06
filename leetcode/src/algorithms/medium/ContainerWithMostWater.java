@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.medium;
 
 /**
  * 给定一个数组，将数组的值作为y，索引之差作为x，求出最大的x*y。
