@@ -34,13 +34,13 @@ public class SwapNodesinPairs {
                } else {
                    newHead.next = new ListNode(evens.get(j/2));
                }
-       	} else {
-               if(j/2 < evens.size()) {
-                   newHead.next = new ListNode(evens.get(j/2));
-               } else {
-                   newHead.next = new ListNode(odds.get(j/2));
-               }
-       	}
+	       	} else {
+	               if(j/2 < evens.size()) {
+	                   newHead.next = new ListNode(evens.get(j/2));
+	               } else {
+	                   newHead.next = new ListNode(odds.get(j/2));
+	               }
+	       	}
         	newHead = newHead.next;
         }
         return result.next;
