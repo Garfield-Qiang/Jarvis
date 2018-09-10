@@ -3,6 +3,8 @@ package algorithms.medium;
 import java.util.ArrayList;
 import java.util.List;
 
+import utils.ListNode;
+
 
 /**
  * Given a linked list, swap every two adjacent nodes and return its head.
@@ -45,10 +47,5 @@ public class SwapNodesinPairs {
         }
         return result.next;
     }
-	
-	class ListNode {
-	     int val;
-	     ListNode next;
-	     ListNode(int x) { val = x; }
-	 }
+
 }
